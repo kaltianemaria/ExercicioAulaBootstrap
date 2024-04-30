@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form">
+                    <form action="#">
+                        <div class="form-group">
+                            <h1 class="text-center">Cadastre-se</h1>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">Primeiro nome</label>
+                            <input id="firstname" class="form-control" type="text" name="firstname"
+                                placeholder="Digite seu primeiro nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" class="form-control" type="text" name="lastname"
+                                placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input id="email" class="form-control" type="email" name="email"
+                                placeholder="Digite seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Número</label>
+                            <input id="number" class="form-control" type="tel" name="number"
+                                placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Senha</label>
+                            <input id="password" class="form-control" type="password" name="password"
+                                placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmpassword">Confirme sua senha</label>
+                            <input id="confirmpassword" class="form-control" type="password" name="confirmpassword"
+                                placeholder="Confirme sua senha" required>
+                        </div>
+                        <div class="form-group">
+                            <h6>Gênero</h6>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="female">
+                                <label class="form-check-label" for="female">Feminino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="male">
+                                <label class="form-check-label" for="male">Masculino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="others">
+                                <label class="form-check-label" for="others">Outros</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="none">
+                                <label class="form-check-label" for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                        <div class="form-group text-center">
+                            <button class="btn btn-primary">Continuar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
